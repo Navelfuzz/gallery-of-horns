@@ -2,28 +2,18 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
-
-article {
-    border: solid 2px black;
-    margin: 10px;
-}
-
-img {
+  }
+  
+  img {
     padding: 5px;
-    width: 15vw;
-}
+    transition: 350ms; 
+    color: black;
+  }
+  
+  img:hover {
+    filter: brightness(35%);
+  }
 
-h1 {
+  h2 {
     text-align: center;
-}
-
-h2 {
-    text-align: center;
-    overflow-wrap: break-word;
-    inline-size: 15vw;
-}
-
-p {
-    text-align: center;
-}
+  }

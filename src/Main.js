@@ -8,7 +8,7 @@ class Main extends React.Component{
     return(
       <main>
 				  {data.map(beastObj => {
-            return <HornedBeast title={beastObj.title} image_url={beastObj.image_url}/>
+            return <HornedBeast title={beastObj.title} image_url={beastObj.image_url} alt={beastObj.description}/>
           })}
       </main>
     )
