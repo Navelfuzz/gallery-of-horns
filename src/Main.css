@@ -13,7 +13,3 @@ main {
   img:hover {
     filter: brightness(35%);
   }
-
-  h2 {
-    text-align: center;
-  }
