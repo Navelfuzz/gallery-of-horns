@@ -1,0 +1,15 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  img {
+    padding: 5px;
+    transition: 350ms; 
+    color: black;
+  }
+  
+  img:hover {
+    filter: brightness(35%);
+  }

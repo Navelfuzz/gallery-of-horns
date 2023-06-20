@@ -1,5 +1,3 @@
-// REBUILD AS A CLASS COMPONENT
-
 // 1ST IMPORT
 import React from 'react';
 import Main from './Main';
@@ -18,7 +16,6 @@ class App extends React.Component {
     )
   }
 }
-
 
 // 3RD EXPORT THE CLASS FOR OTHER FILES TO USE IT
 export default App;
