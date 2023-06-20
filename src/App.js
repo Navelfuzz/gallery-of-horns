@@ -2,9 +2,9 @@
 
 // 1ST IMPORT
 import React from 'react';
-import Main from './Main';
-import Header from './Header';
-import Footer from './Footer';
+import Main from './Main'
+import Header from './Header'
+import Footer from './Footer'
 
 // 2ND CREATE OUR CLASS COMPONENET
 class App extends React.Component {
